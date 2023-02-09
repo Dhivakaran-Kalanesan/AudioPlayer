@@ -1,0 +1,51 @@
+html
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkslategrey;
+}
+.outer
+{
+    height: 300px;
+    width: 200px;
+    background-color:rgb(4, 92, 92);
+    box-shadow: 0px 0px 6px black;
+    border: 8px solid rgb(70, 5, 35);
+
+}
+@keyframes scaling {
+    0%{
+        transform: scale(0.9);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+    
+}
+.display
+{
+    animation: scaling 7s infinite alternate-reverse;
+    height: 150px;
+    width: 150px;
+    box-shadow:0px 0px 10px rgb(255, 1, 1);
+    border: 8px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+i
+{
+    color:crimson ;
+}
+marquee
+{
+    width: 150px;
+}
+button{
+    box-shadow: 0px 0px 8px black;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
